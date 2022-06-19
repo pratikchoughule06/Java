@@ -35,7 +35,6 @@ public class ButterflyPattern {
       for (int star=1; star<=line; star++)
     	System.out.print("*");
       
-      
       System.out.println();
     }
   }
