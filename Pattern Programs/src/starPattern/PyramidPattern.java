@@ -1,12 +1,15 @@
 package starPattern;
 
-public class PyramidStarPattern {
-
-  public static void main(String[] args) {
-	  
+public class PyramidPattern {
+  
 //(Note: Only Outer for loop value changes between both programs.Inner for loop remains same.)
+
+  //Using Instance Method
 	
+  public static void pyramid() {
+	  
 	System.out.println("PYRAMID");
+	System.out.println();
 	  
     for (int line=1; line<=10; line++)                //for number of rows/lines
 	{
@@ -20,10 +23,14 @@ public class PyramidStarPattern {
 	}
     
       System.out.println();
+  }
       
 //-------------------------------------------------------------//
     
-	System.out.println("REVERSE PYRAMID");
+  public static void reversePyramid() {
+  
+    System.out.println("REVERSE PYRAMID");
+    System.out.println();
 
     for (int line=10; line>=1; line--)                
     {
@@ -35,6 +42,14 @@ public class PyramidStarPattern {
 
       System.out.println();
     }
-      
+    
+      System.out.println();
+  }
+  
+  
+  public static void main(String[] args) {
+	  
+	  pyramid();
+	  reversePyramid();
   }
 }

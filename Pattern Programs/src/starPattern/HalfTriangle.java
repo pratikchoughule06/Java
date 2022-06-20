@@ -2,9 +2,12 @@ package starPattern;
 
 public class HalfTriangle {
 	
-  public static void main(String[] args) {
+  //Using Instance Method
+	
+  public static void rightTriangle() {
 	
 	System.out.println("Right Triangle");
+	System.out.println();
 	
 	for(int line=1; line<=5; line++)
 	{
@@ -15,10 +18,14 @@ public class HalfTriangle {
 	}
 	
 	  System.out.println();
+  }
 	  
 //--------------------------------------------------------------//
 	  
-	System.out.println("Reverse Right Triangle");
+  public static void reverseRightTriangle() {
+  
+  System.out.println("Reverse Right Triangle");
+  System.out.println();
 	
 	for(int line=5; line>=1; line--)
 	{
@@ -29,10 +36,14 @@ public class HalfTriangle {
 	}
 	
 	System.out.println();
+  }
 	
 //-------------------------------------------------------//
 	
-	System.out.println("Left Triangle");
+  public static void leftTriangle() {
+  
+    System.out.println("Left Triangle");
+    System.out.println();
 	  
     for (int line=1; line<=5; line++)
     {
@@ -46,10 +57,14 @@ public class HalfTriangle {
     }
     
     System.out.println();
+  }
     
 //--------------------------------------------------------//
       
+  public static void reverseLeftTriangle() {
+  
     System.out.println("Reverse Left Triangle");
+    System.out.println();
     
     for (int line=5; line>=1; line--)
     {
@@ -61,5 +76,16 @@ public class HalfTriangle {
     	
       System.out.println();
     }
+    
+      System.out.println();
+  }
+  
+  
+  public static void main(String[] args) {
+	  
+	  rightTriangle();
+	  reverseRightTriangle();
+	  leftTriangle();
+	  reverseLeftTriangle();
   }
 }

@@ -1,10 +1,13 @@
 package starPattern;
 
 public class PascalsTriangle {
+	
+  //Using Instance Method
 
-  public static void main(String[] args) {
+  public static void rightPascalsTriangle() {
 	
 	System.out.println("Right Pascal's Triangle");
+	System.out.println();
 	
 	for(int line=1; line<=7; line++)
 	{
@@ -29,10 +32,14 @@ public class PascalsTriangle {
 	}
 	
 	System.out.println();
+  }
 	
 //---------------------------------------------------------------------//
 	
-	System.out.println("Left Pascal's Triangle");
+  public static void leftPascalsTriangle() { 
+  
+    System.out.println("Left Pascal's Triangle");
+    System.out.println();
 	
 	for (int line=1; line<=7; line++)
 	{
@@ -49,5 +56,14 @@ public class PascalsTriangle {
 	  
 	  System.out.println();
 	}
+	
+	  System.out.println();
+  }
+  
+  
+  public static void main(String[] args) {
+	  
+	  rightPascalsTriangle();
+	  leftPascalsTriangle();
   }
 }

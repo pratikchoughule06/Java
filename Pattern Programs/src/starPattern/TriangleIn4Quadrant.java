@@ -2,9 +2,12 @@ package starPattern;
 
 public class TriangleIn4Quadrant {
 
-  public static void main(String[] args){
+  //Using Instance Method
+
+  public static void triangleIn4Quadrant() {
 	  
     System.out.println("Triangle in 4 Quadrant");
+    System.out.println();
 	    
 	for (int line=1; line<=10; line++)
 	{
@@ -40,6 +43,14 @@ public class TriangleIn4Quadrant {
 	     System.out.print("*");
 	    	
 	   System.out.println();
-	  }
+	 }
+	 
+	   System.out.println();
+  }
+  
+  
+  public static void main(String[] args) {
+	  
+	  triangleIn4Quadrant();
   }
 }

@@ -1,8 +1,13 @@
 package starPattern;
 
 public class ButterflyPattern {
+	
+  //Using Instance Method
 
-  public static void main(String[] args) {
+  public static void butterflyPattern() {
+	  
+	System.out.println("BUTTERFLY PATTERN");
+	System.out.println();
 	
     for (int line=1; line<=10; line++)
     {
@@ -37,5 +42,14 @@ public class ButterflyPattern {
       
       System.out.println();
     }
+    
+      System.out.println();
+  }
+  
+  
+  public static void main(String[] args) {
+    	
+      butterflyPattern();
+    
   }
 }
