@@ -2,8 +2,8 @@ package starPattern;
 
 public class AllBelowPatternObjects {
 	
-  //This class contains only object of all below pattern 
-  //class since we have used Instance Method to write code
+  /*This class contains only object of all below pattern of 
+  starPattern package since we have used Static Method to write code*/
 	
   public static void main(String[] args) {
 		
