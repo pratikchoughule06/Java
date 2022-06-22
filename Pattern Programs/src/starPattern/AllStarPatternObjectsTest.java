@@ -1,6 +1,6 @@
 package starPattern;
 
-public class AllBelowPatternObjects {
+public class AllStarPatternObjectsTest {
 	
   /*This class contains only object of all below pattern of 
   starPattern package since we have used Static Method to write code*/
