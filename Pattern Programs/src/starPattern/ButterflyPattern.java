@@ -20,7 +20,7 @@ public class ButterflyPattern {
       for (int space=line; space<10; space++)
         System.out.print(" ");
       
-      for (int star1=1; star1<=line; star1++)
+      for (int star=1; star<=line; star++)
     	System.out.print("*");
       
       System.out.println();
